@@ -7,7 +7,7 @@ function MainSlider() {
   return (
         <OwlCarousel
             className="owl-theme"
-            loop
+            // loop
             margin={10}
             nav
             items = {1}

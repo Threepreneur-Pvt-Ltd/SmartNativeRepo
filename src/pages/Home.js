@@ -23,14 +23,36 @@ function Home() {
     <section className="fs-commonsc desktop">
         <div className="container">
             <div className="row fs-commonsc1">
+                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"> 
+                    <h2 className="fs-heading">One of the winning Team of </h2>
+                    <h3 className="fs-heading">Germany’s largest Education Hackathon</h3>
+                    <h4 className="fs-heading">#wirfuerschule</h4>
+                    <h4 className="fs-subheading">Schools don’t prepare enough for modern days’ working environment 
+                        Old School is UnCool</h4>
+                </div>
+                
+                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 fs-banner-caption">
+                    <p>Smart Natives is an upskilling and matching platform <br/> for teenagers, young adults, and companies.</p>
+                    <p>The platform gives access to challenge-based learning: online, offline, and hybrid. These challenges and training enable students to easily develop 21st-century skills and help them utilize megatrends and global sustainable goals as important innovation factors. Participants can learn techniques from domains, such as AI, data science or Robotics to solve real-life challenges.</p>
+                </div>
+                {/* <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 rightsc">
+                    <div className="inbox">
+                        <figure>
+                            <img src="assets/img/light.png" />
+                            <img src="assets/img/img1.png" />
+                        </figure>
+                    </div>
+                </div> */}
+            </div>
+            <div className="row fs-commonsc1">
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 leftsc">
                     <div className="comment_img">
                         <img src="assets/img/round1.png" className="blue_img" />
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>
                     <h2 className="fs-heading">Challenges</h2>
-                    <p>We help organizations to run their open innovation challenges</p>
-                    <p>Join the most exciting challenges, contribute to innovative technological solutions and become a real champion .</p>
+                    <p>Together with the Smart Native Team companies or institutions submit innovation challenges.</p>
+                    <p>Throughout the challenges, students are coached and consulted by experienced Smart Natives mentors. Students can track their progress on the platform.</p>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 rightsc">
                     <div className="inbox">
@@ -86,7 +108,7 @@ function Home() {
                         <img src="assets/img/round1.png" className="blue_img" />
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>
-                    <h2 className="fs-heading">Conferences</h2>
+                    <h2 className="fs-heading">Events</h2>
                     <p>Build up your Folio based on evaluations from a selected panel of experts. Our token-based award system rewards the best projects based on the competition results.</p>
                 </div>           
             </div>
@@ -174,7 +196,7 @@ function Home() {
                 <img src="assets/img/round2.png" className="skyblue_img" />
             </div>
             <ul className="nav nav-tabs">
-              <li className="active"><a data-toggle="tab" href="#teachers">For Teachers</a></li>
+              <li className="active"><a data-toggle="tab" href="#teachers">For Corporate</a></li>
               <li><a data-toggle="tab" href="#students">For Students</a></li>
             </ul>
         </div>
@@ -253,7 +275,7 @@ function Home() {
                         <img src="assets/img/round1.png" className="blue_img" />
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>
-                    <h2 className="fs-heading">Smart Natives Zone</h2>
+                    <h2 className="fs-heading">Smart Natives Skill Zone</h2>
                     <div className="comment_img rightside">
                         <img src="assets/img/round1.png" className="blue_img" />
                         <img src="assets/img/round2.png" className="skyblue_img" />
@@ -395,7 +417,7 @@ function Home() {
 
             <div className="row">
                 <div className="col-lg-2 col-md-2 col-sm-2 col-xs-4"> 
-                   <img src="assets/img/clogo1.jpg" />
+                   <img src="assets/img/threepreneur.png" />
                    <img src="assets/img/clogo2.jpg" />
                 </div>
 

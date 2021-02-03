@@ -16,7 +16,7 @@ html,body{font-family: 'swis721_cn_btbold';-webkit-text-size-adjust:100%;-ms-tex
 ol,ul{padding:0;margin-bottom:0}
 ol,ul,li{list-style:none}
 a,a:hover,a:focus{text-decoration:none}
-p,h1,h2,h3,h4,h5,h6,img,span,figcaption,button,li,a,header,p{line-height:27px}
+p,h1,h2,h3,h4,h5,h6,img,span,figcaption,button,li,a,header,p{line-height:23px}
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family: 'swis721_cn_btbold';}
 a,a:focus,a:hover{color:#28b1f0}
 a,button,img{outline:none!important}
@@ -406,7 +406,7 @@ textarea.form-control{height:120px}
 .form-control.sub_btn:hover
 {background:#ffb011 !important}
 .fs-subscribe .comment_img{left:30px;top:0}
-.fs-footer::after{content:"";background-image:url(assets/img/bg4.png);height:767px;background-position:0 0;background-repeat:no-repeat;position:absolute;bottom:0;left:0;width:1372px;right:0;margin:0 auto;z-index:-1;background-size:100% 100%}
+.fs-footer::after{content:"";background-image:url(assets/img/bg4.png);height:900px;width:100%;background-position:0 0;background-repeat:no-repeat;position:absolute;bottom:0;left:0;width:1372px;right:0;margin:0 auto;z-index:-1;background-size:100% 100%}
 .fs-footer{position:relative;z-index:1;padding-top:120px}
 .fs-footer *,.fs-footer a{color:#fff}
 .fs-footer .form-control{
@@ -420,6 +420,11 @@ textarea.form-control{height:120px}
 }
 .fs-footer .form-group {
     margin-bottom: 5px;
+}
+.design-by
+{
+  padding-left:0;
+  text-align:right;
 }
 
 section.fs-commonsc.desktop {display: block;}
