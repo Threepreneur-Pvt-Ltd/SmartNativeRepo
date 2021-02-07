@@ -196,7 +196,7 @@ function Home() {
                 <img src="assets/img/round2.png" className="skyblue_img" />
             </div>
             <ul className="nav nav-tabs">
-              <li className="active"><a data-toggle="tab" href="#teachers">For Corporate</a></li>
+              <li className="active"><a data-toggle="tab" href="#teachers">For Corporates</a></li>
               <li><a data-toggle="tab" href="#students">For Students</a></li>
             </ul>
         </div>
@@ -276,12 +276,12 @@ function Home() {
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>
                     <h2 className="fs-heading">Smart Natives Skill Zone</h2>
+                <img src="assets/img/mapping.png" className="img-map"/>
                     <div className="comment_img rightside">
                         <img src="assets/img/round1.png" className="blue_img" />
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>
                 </div>
-
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div className="fs-smartnative-carousel ">
                         <BlogSliderHome />
@@ -441,7 +441,7 @@ function Home() {
 
                 <div className="col-lg-2 col-md-2 col-sm-2 col-xs-4"> 
                    <img src="assets/img/clogo9.jpg" />
-                   <img src="assets/img/clogo10.jpg" />
+                   {/* <img src="assets/img/clogo10.jpg" /> */}
                 </div>
             </div>
       </div>

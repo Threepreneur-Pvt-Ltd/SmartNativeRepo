@@ -15,6 +15,87 @@ function BlogSliderHome() {
         item = 3;
   }
 
+  const data = [
+      {
+          id:1,
+          title:"Smart Communication",
+          description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
+          image: 'https://www.sih.gov.in/img/icon_communication.png',
+          class: "skyblue_bg"
+      },
+      {
+          id:2,
+          title:"Healthcare & Biomedical devices",
+          description:"Designing devices that would help in managing healthcare better.",
+          image: 'https://www.sih.gov.in/img/icon_healthcare.png',
+          class: "yellow_bg"
+      },
+      {
+          id:3,
+          title:"Agriculture Rural Development",
+          description:"Designing devices keeping in mind the need to enhance the primary sector of India Agriculture and our Rural Population.",
+          image: 'https://www.sih.gov.in/img/icon_technology.png',
+          class: "blue_bg"
+      },
+      {
+          id:4,
+          title:"Smart Vehicles",
+          description:"Creating intelligent devices to improve commutation sector.",
+          image: 'https://www.sih.gov.in/img/icon_automobiles.png',
+          class: "yellow_bg"
+      },
+      {
+          id:5,
+          title:"Food Processing",
+          description:"Creating state-of-the-art solutions to manage and process our agriculture produce.",
+          image: 'https://www.sih.gov.in/img/icon_agriculture.png',
+          class: "skyblue_bg"
+      },
+      {
+          id:6,
+          title:"Robotics and Drones",
+          description:"There is a need to design drones and robots that can solve some of the pressing challenges of India such as handling medical emergencies, search and rescue operations, etc.",
+          image: 'https://www.sih.gov.in/img/icon_drone.png',
+          class: "yellow_bg"
+      },
+      {
+          id:7,
+          title:"Waste management",
+          description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
+          image: 'https://www.sih.gov.in/img/icon_water.png',
+          class: "blue_bg"
+      },
+      {
+          id:8,
+          title:"Clean water",
+          description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
+          image: 'https://www.sih.gov.in/img/icon_water.png',
+          class: "yellow_bg"
+      },
+      {
+          id:9,
+          title:"Renewable Energy",
+          description:"Innovative ideas that help manage and generate renewable sources more efficiently.",
+          image: 'https://www.sih.gov.in/img/icon_renewable.png',
+          class: "skyblue_bg"
+      },
+      {
+          id:10,
+          title:"Security Surveillance",
+          description:"Creating state-of-the-art safety and security technologies for India.",
+          image: 'https://www.sih.gov.in/img/icon_security.png',
+          class: "yellow_bg"
+      },
+      {
+          id:11,
+          title:"Miscellaneous",
+          description:"Technology ideas in tertiary sectors like Hospitality, Financial Services, Entertainment, Tourism and Retail.",
+          image: 'https://www.sih.gov.in/img/icon_education.png',
+          class: "blue_bg"
+      },
+
+  ]
+
   return (
         <OwlCarousel
             className="owl-theme"
@@ -25,77 +106,17 @@ function BlogSliderHome() {
             autoplay = {true}
             autoplayTimeout = {3000}
         >
-          <div className="item">
-                        <div className="inbox">
-                            <figure className="yellow_bg">
-                                <img src="assets/img/icon2.png" />
-                            </figure>
-                            <h4>Sustainability</h4>
-                            <p>avoidance of the depletion of natural resources in order to maintain an ecological balance. <br/> "the pursuit of global environmental sustainability"</p>
-                            <p>Every interaction will have different outcomes defined, which are important deliverables of the innovation process… </p>
-                            <a href="#." className="btn">View more</a>
-                        </div>
-                    </div>
-
+            {data.map((item) => (
                     <div className="item">
                         <div className="inbox">
-                            <figure className="blue_bg">
-                                <img src="assets/img/icon5.png" />
+                            <figure className={item.class}>
+                                <img src={item.image} />
                             </figure>
-                            <h4>Hybrid Challenges</h4>
-                            <p>avoidance of the depletion of natural resources in order to maintain an ecological balance. <br/> "the pursuit of global environmental sustainability"</p>
-                            <p>Every interaction will have different outcomes defined, which are important deliverables of the innovation process… </p>
-                            <a href="#." className="btn">View more</a>
+                            <h3>{item.title}</h3>
+                            <p >{item.description} </p>
                         </div>
                     </div>
-
-                    <div className="item">
-                        <div className="inbox">
-                            <figure className="skyblue_bg">
-                                <img src="assets/img/icon3.png" />
-                            </figure>
-                            <h4>Innovative Ideas</h4>
-                            <p>avoidance of the depletion of natural resources in order to maintain an ecological balance. <br/> "the pursuit of global environmental sustainability"</p>
-                            <p>Every interaction will have different outcomes defined, which are important deliverables of the innovation process… </p>
-                            <a href="#." className="btn">View more</a>
-                        </div>
-                    </div>
-
-                    <div className="item">
-                        <div className="inbox">
-                            <figure className="yellow_bg">
-                                <img src="assets/img/icon4.png" />
-                            </figure>
-                            <h4>AI & Robotics</h4>
-                            <p>avoidance of the depletion of natural resources in order to maintain an ecological balance. <br/> "the pursuit of global environmental sustainability"</p>
-                            <p>Every interaction will have different outcomes defined, which are important deliverables of the innovation process… </p>
-                            <a href="#." className="btn">View more</a>
-                        </div>
-                    </div>
-
-                    <div className="item">
-                        <div className="inbox">
-                            <figure className="blue_bg">
-                                <img src="assets/img/icon6.png" />
-                            </figure>
-                            <h4>Futurology </h4>
-                            <p>avoidance of the depletion of natural resources in order to maintain an ecological balance. <br/> "the pursuit of global environmental sustainability"</p>
-                            <p>Every interaction will have different outcomes defined, which are important deliverables of the innovation process… </p>
-                            <a href="#." className="btn">View more</a>
-                        </div>
-                    </div>
-
-                    <div className="item">
-                        <div className="inbox">
-                            <figure className="skyblue_bg">
-                                <img src="assets/img/icon7.png" />
-                            </figure>
-                            <h4>Code Race</h4>
-                            <p>avoidance of the depletion of natural resources in order to maintain an ecological balance. <br/> "the pursuit of global environmental sustainability"</p>
-                            <p>Every interaction will have different outcomes defined, which are important deliverables of the innovation process… </p>
-                            <a href="#." className="btn">View more</a>
-                        </div>
-                    </div>
+                    ))}
         </OwlCarousel>
   );
 }
