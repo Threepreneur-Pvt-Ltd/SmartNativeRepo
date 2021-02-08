@@ -22,7 +22,7 @@ function Header() {
                                 <li><a href="#." target="_blank"><i className="fab fa-youtube"></i></a></li>
                             </ul>  
 
-                            <div className="dropdown">
+                            {/* <div className="dropdown">
                               <button className="dropbtn">
                                 <img src="assets/img/english-flag.jpg" title="English" />
                               </button>
@@ -30,14 +30,14 @@ function Header() {
                                 <a href="#"><img src="assets/img/french-flag.jpg" title="French" /></a>
                                 <a href="#"><img src="assets/img/german-flag.jpg" title="German" /></a>
                               </div>
-                            </div> 
+                            </div>  */}
 
 
                             <ul className="fs-navbar">
                                 <li><a href="#">Challenges</a></li>
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Blog</a></li>
-                                <li><a href="#">Organisation Challenge</a></li>
+                                <li><a href="https://wnc0tb5cjoh.typeform.com/to/JzSYqWTC">Organisation Challenge</a></li>
                                 <li><a href="#">Sign In <i className="fas fa-user"></i></a></li>
                             </ul>   
                                            

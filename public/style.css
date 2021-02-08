@@ -215,10 +215,10 @@ textarea.form-control{height:120px}
 .fs-commonsc2 figure img:first-child{right:70px;margin-bottom:20px;padding-top: 60px;}
 .fs-commonsc2 .rightsc p{width:100%}
 .fs-commonsc2 .rightsc{padding:65px 15px 0 50px}
-.fs-commonsc3 figure{width:290px;height:90px;text-align:right;position:relative;margin:35px 0 0}
-.fs-commonsc3 figure img:first-child{position:absolute;right:60px;right: 10px;margin:0 auto}
+.fs-commonsc3 figure{width:390px;text-align:right;position:relative;margin:35px 0 0}
+.fs-commonsc3 figure img:first-child{position:relative;right:60px;right: 10px;margin:0 auto}
 .fs-commonsc3 p{width:100%;font-size:18px;line-height:27px}
-.fs-commonsc4 figure img:first-child{position:absolute;right:40px;top:55px}
+.fs-commonsc4 figure img:first-child{position:relative;right:40px;top:55px}
 .fs-commonsc4 figure{width:420px;margin:0 auto;position:relative}
 .fs-commonsc4 .rightsc{padding:65px 15px 0 50px}
 .fs-commonsc4 .comment_img{right:-115px;top:-60px}

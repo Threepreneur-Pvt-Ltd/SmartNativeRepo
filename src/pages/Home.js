@@ -4,7 +4,7 @@ import Footer from '../components/Footer.js';
 import MainSlider from '../components/MainSlider.js';
 import TeamSlider from '../components/TeamSlider.js';
 import BlogSliderHome from '../components/BlogSliderHome.js';
-
+import Button from 'react-bootstrap/Button'
 function Home() {
   return (
     <div className="Home">
@@ -35,6 +35,9 @@ function Home() {
                     <p>Smart Natives is an upskilling and matching platform <br/> for teenagers, young adults, and companies.</p>
                     <p>The platform gives access to challenge-based learning: online, offline, and hybrid. These challenges and training enable students to easily develop 21st-century skills and help them utilize megatrends and global sustainable goals as important innovation factors. Participants can learn techniques from domains, such as AI, data science or Robotics to solve real-life challenges.</p>
                 </div>
+                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <iframe width="600" height="356" src="https://www.youtube.com/embed/dVqZQsjkyHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
+                </div> 
                 {/* <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 rightsc">
                     <div className="inbox">
                         <figure>
@@ -117,6 +120,31 @@ function Home() {
 
     <section className="fs-commonsc mobile">
         <div className="container">
+                <div className="row fs-commonsc1">
+                    <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"> 
+                        <h2 className="fs-heading">One of the winning Team of </h2>
+                        <h3 className="fs-heading">Germany’s largest Education Hackathon</h3>
+                        <h4 className="fs-heading">#wirfuerschule</h4>
+                        <h4 className="fs-subheading">Schools don’t prepare enough for modern days’ working environment 
+                            Old School is UnCool</h4>
+                    </div>
+                    
+                    <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 fs-banner-caption">
+                        <p>Smart Natives is an upskilling and matching platform <br/> for teenagers, young adults, and companies.</p>
+                        <p>The platform gives access to challenge-based learning: online, offline, and hybrid. These challenges and training enable students to easily develop 21st-century skills and help them utilize megatrends and global sustainable goals as important innovation factors. Participants can learn techniques from domains, such as AI, data science or Robotics to solve real-life challenges.</p>
+                    </div>
+                    <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <iframe width="300" height="206" src="https://www.youtube.com/embed/dVqZQsjkyHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
+                    </div> 
+                    {/* <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 rightsc">
+                        <div className="inbox">
+                            <figure>
+                                <img src="assets/img/light.png" />
+                                <img src="assets/img/img1.png" />
+                            </figure>
+                        </div>
+                    </div> */}
+                </div>
             <div className="row fs-commonsc1">
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 leftsc">
                     <div className="comment_img">
@@ -276,13 +304,16 @@ function Home() {
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>
                     <h2 className="fs-heading">Smart Natives Skill Zone</h2>
-                <img src="assets/img/mapping.png" className="img-map"/>
+                <img src="assets/img/image-map.png" className="img-map"/>
                     <div className="comment_img rightside">
                         <img src="assets/img/round1.png" className="blue_img" />
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>
                 </div>
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <h3 className="fs-heading">Smart Natives Challenges</h3>
+                    <h4 className="fs-heading">Themes</h4>
+                    <h3 className="fs-subheading"> No Problem is too Big.. No Problem is Too Small</h3>
                     <div className="fs-smartnative-carousel ">
                         <BlogSliderHome />
                     </div>
@@ -359,9 +390,12 @@ function Home() {
                     <h2 className="fs-heading">Explore Smart Natives Globally</h2>
                 </div>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapsc">
+                    <form action="" className="text-center">
+                        <Button variant="outline-success" href="https://wnc0tb5cjoh.typeform.com/to/JzSYqWTC">Post Challenges</Button>
+                    </form>
                     <img src="assets/img/custom_map.png" />
-                </div>
-            </div>
+                  </div>
+             </div>
         </div>
     </section>
 

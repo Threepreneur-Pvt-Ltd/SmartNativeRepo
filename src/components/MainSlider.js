@@ -17,17 +17,6 @@ function MainSlider() {
               <div className="item">
                 <div className="inbox">
                     <div className="fs-banner-caption">
-                        {/* <h2>Youtube Video</h2> */}
-                        {/* <p>The Smart Natives organise a online and a offline workshops platform that can be freely selected depending on your interests. They allow an intensive A company with strong competitive advantages are likely to survive in the long term.</p> */}
-                    </div>
-                    <div className="fs-bannerthumb">
-                            <iframe width="1000" height="606" src="https://www.youtube.com/embed/dVqZQsjkyHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
-                    </div>
-                </div>
-              </div>
-              <div className="item">
-                <div className="inbox">
-                    <div className="fs-banner-caption">
                         <h2>Competitive Advantages</h2>
                         <p>The Smart Natives organise a online and a offline workshops platform that can be freely selected depending on your interests. They allow an intensive A company with strong competitive advantages are likely to survive in the long term.</p>
                     </div>

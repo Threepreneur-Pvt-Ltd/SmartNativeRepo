@@ -20,77 +20,77 @@ function BlogSliderHome() {
           id:1,
           title:"Smart Communication",
           description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
-          image: 'https://www.sih.gov.in/img/icon_communication.png',
+          image: 'assets/img/slider/icon_communication.png',
           class: "skyblue_bg"
       },
       {
           id:2,
           title:"Healthcare & Biomedical devices",
           description:"Designing devices that would help in managing healthcare better.",
-          image: 'https://www.sih.gov.in/img/icon_healthcare.png',
+          image: 'assets/img/slider/icon_healthcare.png',
           class: "yellow_bg"
       },
       {
           id:3,
           title:"Agriculture Rural Development",
           description:"Designing devices keeping in mind the need to enhance the primary sector of India Agriculture and our Rural Population.",
-          image: 'https://www.sih.gov.in/img/icon_technology.png',
+          image: 'assets/img/slider/icon_technology.png',
           class: "blue_bg"
       },
       {
           id:4,
           title:"Smart Vehicles",
-          description:"Creating intelligent devices to improve commutation sector.",
-          image: 'https://www.sih.gov.in/img/icon_automobiles.png',
+          description:"Need to Create intelligent devices to improve commutation sector, transportation and etc.",
+          image: 'assets/img/slider/icon_automobiles.png',
           class: "yellow_bg"
       },
       {
           id:5,
           title:"Food Processing",
           description:"Creating state-of-the-art solutions to manage and process our agriculture produce.",
-          image: 'https://www.sih.gov.in/img/icon_agriculture.png',
+          image: 'assets/img/slider/icon_agriculture.png',
           class: "skyblue_bg"
       },
       {
           id:6,
           title:"Robotics and Drones",
-          description:"There is a need to design drones and robots that can solve some of the pressing challenges of India such as handling medical emergencies, search and rescue operations, etc.",
-          image: 'https://www.sih.gov.in/img/icon_drone.png',
+          description:"Need to design drones and robots that can solve some of the pressing challenges of medical emergencies.",
+          image: 'assets/img/slider/icon_drone.png',
           class: "yellow_bg"
       },
       {
           id:7,
           title:"Waste management",
           description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
-          image: 'https://www.sih.gov.in/img/icon_water.png',
+          image: 'assets/img/slider/icon_water.png',
           class: "blue_bg"
       },
       {
           id:8,
           title:"Clean water",
           description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
-          image: 'https://www.sih.gov.in/img/icon_water.png',
+          image: 'assets/img/slider/icon_water.png',
           class: "yellow_bg"
       },
       {
           id:9,
           title:"Renewable Energy",
           description:"Innovative ideas that help manage and generate renewable sources more efficiently.",
-          image: 'https://www.sih.gov.in/img/icon_renewable.png',
+          image: 'assets/img/slider/icon_renewable.png',
           class: "skyblue_bg"
       },
       {
           id:10,
           title:"Security Surveillance",
           description:"Creating state-of-the-art safety and security technologies for India.",
-          image: 'https://www.sih.gov.in/img/icon_security.png',
+          image: 'assets/img/slider/icon_security.png',
           class: "yellow_bg"
       },
       {
           id:11,
           title:"Miscellaneous",
           description:"Technology ideas in tertiary sectors like Hospitality, Financial Services, Entertainment, Tourism and Retail.",
-          image: 'https://www.sih.gov.in/img/icon_education.png',
+          image: 'assets/img/slider/icon_education.png',
           class: "blue_bg"
       },
 
@@ -107,7 +107,7 @@ function BlogSliderHome() {
             autoplayTimeout = {3000}
         >
             {data.map((item) => (
-                    <div className="item">
+                    <div className="item" key={item.id}>
                         <div className="inbox">
                             <figure className={item.class}>
                                 <img src={item.image} />
