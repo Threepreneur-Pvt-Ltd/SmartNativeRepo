@@ -12,15 +12,15 @@ function Header() {
                                 Menu
                                 <img src="assets/img/menu-img.png" className="fs-menu-icon" alt="Smart Native Menu icon" />
                             </button>
-                            <a className="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Smart Native Logo"/></a>
+                            <a className="navbar-brand" href="https://smart-natives.de"><img src="assets/img/logo.png" alt="Smart Native Logo"/></a>
                         </div>
                         <div className="collapse navbar-collapse" id="fs-main-menu">
-                            <ul className="fs-social-icon list-inline navbar-right">
+                            {/* <ul className="fs-social-icon list-inline navbar-right">
                                 <li><a href="#." target="_blank"><i className="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#." target="_blank"><i className="fab fa-twitter"></i></a></li>
                                 <li><a href="#." target="_blank"><i className="fab fa-instagram"></i></a></li>
                                 <li><a href="#." target="_blank"><i className="fab fa-youtube"></i></a></li>
-                            </ul>  
+                            </ul>   */}
 
                             {/* <div className="dropdown">
                               <button className="dropbtn">
@@ -31,14 +31,20 @@ function Header() {
                                 <a href="#"><img src="assets/img/german-flag.jpg" title="German" /></a>
                               </div>
                             </div>  */}
-
+                            {/* .fs-navbar li:nth-child(4) a,
+                            .fs-navbar li:nth-child(5) a {
+                                margin-bottom: 8px;
+                                display: inline-block;
+                            } */}
 
                             <ul className="fs-navbar">
-                                <li><a href="#">Challenges</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="https://wnc0tb5cjoh.typeform.com/to/JzSYqWTC">Organisation Challenge</a></li>
-                                <li><a href="#">Sign In <i className="fas fa-user"></i></a></li>
+                                <li><a href="/Challenges">Challenges</a></li>
+                                <li><a href="/About">About</a></li>
+                                <li><a href="/SkillZone">Skill Zone</a></li>
+                                <li><a href="/InnovationLab">Innovation Lab</a></li>
+                                <li><a href="/Badges">Badges</a></li>
+                                <li><a href="/Events">Events</a></li>
+                                <li><a href="/Workshops">Workshops</a></li>
                             </ul>   
                                            
                         </div>

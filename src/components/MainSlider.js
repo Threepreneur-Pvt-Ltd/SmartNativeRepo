@@ -11,21 +11,21 @@ function MainSlider() {
             margin={10}
             nav
             items = {1}
-            autoplay = {false}
+            autoplay = {true}
             autoplayTimeout = {5000}
         >
               <div className="item">
                 <div className="inbox">
                     <div className="fs-banner-caption">
-                        <h2>Competitive Advantages</h2>
-                        <p>The Smart Natives organise a online and a offline workshops platform that can be freely selected depending on your interests. They allow an intensive A company with strong competitive advantages are likely to survive in the long term.</p>
+                        <h2>Innovation as a Service</h2>
+                        <p>Smart Natives is an upskilling and matching platform that organizes events like Hackathons and innovation challenges to help teenagers and your adults to learn future skills.</p>
                     </div>
                     <div className="fs-bannerthumb">
                         <img src="assets/img/slider1.png" alt="Smart Natives Slider Image" />
                     </div>
                 </div>
               </div>
-              <div className="item slide2">
+              {/* <div className="item slide2">
                 <div className="inbox">
                   <div className="fs-banner-caption">
                       <h2>The Journey from Digital to Smart</h2>
@@ -34,12 +34,12 @@ function MainSlider() {
                       <img src="assets/img/slider2.png" alt="Smart Natives Slider Image" />
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="item slide3">
                 <div className="inbox">
                   <div className="fs-banner-caption">
-                      <p>We <br/> Students are the future! <br/> Poets, thinkers, smart natives!</p>
-                      <a href="#." className="btn">Learn More</a>
+                      <p>We believe in #youthempowerment </p>
+                      {/* <a href="#." className="btn">Learn More</a> */}
                   </div>
                   <div className="fs-bannerthumb">
                       <img src="assets/img/slider3.png" alt="Smart Natives Slider Image" />
