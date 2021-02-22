@@ -13,8 +13,7 @@ function Home() {
             </div>
             </div>
         </section>
-    <section className="fs-teachstu-sc ">
-        <div className=" container-fluid">
+        <section className="fs-teachstu-sc2 ">
             <div className="container">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"> 
                     <h2 className="fs-heading">One of the winning team of </h2>
@@ -28,8 +27,11 @@ function Home() {
                     <p>Smart Natives is an upskilling and matching platform for teenagers, young adults <br/>and companies that organizes challenges, hackathons and upskilling workshops.</p>
                     <p>The platform gives access to challenge-based learning online, offline and hybrid. <br/>These challenges and trainings enable students to easily develop 21st century skills and <br/>help them utilize mega trends and global sustainable goals as important innovation factors. <br/>Participants can learn techniques from domains, such as AI, data science or robotics to solve real life challenges.</p>
                 </div>
+                </div>
+        <div className=" container-fluid">
+            <div className="container">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center ">
-                    <iframe width="600" height="356" src="https://www.youtube.com/embed/dVqZQsjkyHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
+                    <iframe width="800" height="456" src="https://www.youtube.com/embed/dVqZQsjkyHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
                 </div> 
                 {/* <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 rightsc">
                     <div className="inbox">
@@ -64,22 +66,20 @@ function Home() {
                     </div>
                 </div>
             </div>
-
             <div className="row fs-commonsc2">
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 leftsc">
-                        <div className="inbox">
-                            <figure>
-                                <img src="assets/img/icon8.png" />
-                                <img src="assets/img/img3.png" />
-                            </figure>
-                        </div>
+                    <div className="inbox">
+                        <figure>
+                            <img src="assets/img/icon9.png" />
+                            <img src="assets/img/img2.png" />
+                        </figure>
+                    </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 rightsc">
-                        <h2 className="fs-heading">Hybrid Workshop</h2>
-                        <p>Smart Natives organizes an online and offline platform with workshops for 21st century skills, methods and IT-skills. </p>
-                </div> 
+                    <Link to="/Events"><h2 className="fs-heading">Events</h2></Link>
+                    <p>We organize both online and offline events for schools,companies,communal authorities and institutions.</p>
+                </div>           
             </div>
-
             <div className="row fs-commonsc3">
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 leftsc">
                 <Link to="/Badges"><h2 className="fs-heading">Badges</h2></Link>
@@ -94,25 +94,26 @@ function Home() {
                         </div> 
                     </div>
             </div>
-
             <div className="row fs-commonsc4">
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 leftsc">
-                    <div className="inbox">
-                        <figure>
-                            <img src="assets/img/icon9.png" />
-                            <img src="assets/img/img2.png" />
-                        </figure>
-                    </div>
+                        <div className="inbox">
+                            <figure>
+                                <img src="assets/img/icon8.png" />
+                                <img src="assets/img/img3.png" />
+                            </figure>
+                        </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 rightsc">
-                    <div className="comment_img">
+                        <h2 className="fs-heading">Hybrid Workshop</h2>
+                        <p>Smart Natives organizes an online and offline platform with workshops for 21st century skills, methods and IT-skills. </p>
+                
+                        <div className="comment_img rightsc">
                         <img src="assets/img/round1.png" className="blue_img" />
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>
-                    <Link to="/Events"><h2 className="fs-heading">Events</h2></Link>
-                    <p>We organize both online and offline events for schools,companies,communal authorities and institutions.</p>
-                </div>           
+                </div> 
             </div>
+
         </div>
     </section>
 
@@ -234,7 +235,7 @@ function Home() {
                         <div className="row">
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                                 <div className="inbox text-center">
-                                    <h3>Futuristic <br/> Design</h3>
+                                    <h3>Innovation as <br/>a Service</h3>
                                     <img src="assets/img/student4.png" />
                                 </div>
                             </div>

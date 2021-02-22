@@ -8,9 +8,9 @@ function Footer() {
                     <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <h4>Contact us</h4>
                         <ul>
-                            <li><a href="#." target="_blank"><i className="fas fa-map-marker-alt"></i>Address</a></li>
-                            <li><a href="#." target="_blank"><i className="fas fa-phone"></i>Mobile no</a></li>
-                            <li><a href="#." target="_blank"><i className="fas fa-envelope"></i>Email id</a></li> 
+                            <li><a href="#." target="_blank"><i className="fas fa-map-marker-alt"></i>Lärchenstraße 12 | 61118 Bad Vilbel | Deutschland</a></li>
+                            <li><a href="#." target="_blank"><i className="fas fa-phone"></i>+49 162 9107481</a></li>
+                            <li><a href="#." target="_blank"><i className="fas fa-envelope"></i>training@techeroes.de</a></li> 
                         </ul>
                         <ul className="fs-social-icon list-inline">
                             <li><a href="#." target="_blank"><i className="fab fa-facebook-f"></i></a></li>

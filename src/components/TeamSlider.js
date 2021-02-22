@@ -42,7 +42,7 @@ function TeamSlider() {
         >
           <div className="item">  
             <div className="inbox">
-            <img src="assets/img/testi1.png" />
+            <img src="assets/img/rinku.png" />
                 <p>Rinku is the initiator of Smart Natives. He is a specialist in the IT-sector and very experienced in implementing IT-projects in educating environments. He is also the founder of Techeroes, an IT-school and innovation lab.</p>
                 <h3>Rinku Sharma</h3>
             </div>
@@ -66,7 +66,7 @@ function TeamSlider() {
             <div className="inbox">
             <img src="assets/img/Asset5.png" />
             <p>Constanze is our marketing advisor and helps us with all questions about digital marketing.</p>
-            <h3>Constanze gerlach</h3>
+            <h3>Constanze Gerlach</h3>
             </div>
         </div>
         <div className="item">  
@@ -74,6 +74,13 @@ function TeamSlider() {
             <img src="assets/img/Asset4.png" />
             <p>Mohammed is a student of xxxxx and has completed many robotic projects with kids and teenagers. He is an immigrant and wants to see more young talents in the IT-sector.</p>
             <h3>Mohammad Waheed</h3>
+            </div>
+        </div>
+        <div className="item">  
+            <div className="inbox">
+            <img src="assets/img/sachin.png" />
+            <p>Sachin is a Tech expert and specialised  in Mobile application development, He is also a founder of Skillship Foundation</p>
+            <h3>Sachin Pandey</h3>
             </div>
         </div>
         </OwlCarousel>

@@ -39,7 +39,7 @@ export default function Events() {
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                     <h3 className="fs-heading">Events</h3>
                         <Container >
-                        <Row className="inbox">
+                        <Row >
                                 <Col><h4 className="fs-subheading">We organize both online and offline events for schools,companies,communal authorities and institutions.</h4></Col>
                                 <Col><h4 className="fs-subheading">We try to work interdisciplinary and combine both digital tools,hands-on technology tools<br/> or simple things like actual wood, colors or up-cycling materials because we believe that the combination of all this is key to learning. <br/>In our Innovation Labs we can create pretty much everything. If you want to organize an event contact us!</h4></Col>
                                 

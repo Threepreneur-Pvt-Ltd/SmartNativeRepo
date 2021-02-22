@@ -225,13 +225,13 @@ textarea.form-control{height:120px}
 .skyblue_img{position:absolute;left:0;bottom:0}
 .fs-commonsc{margin-top:120px}
 .fs-commonsc .container-fluid{background-image:url(assets/img/bg1.png);height:415px;background-position:left;background-size:auto ;background-repeat:no-repeat;padding-bottom: 30;}
-.fs-commonsc1 figure img:first-child{margin-bottom:20px}
+.fs-commonsc1 figure img:first-child{margin-bottom:10px}
 .fs-commonsc1 figure{width:490px;margin:-45px auto 0;text-align:center}
 .fs-commonsc2 figure{width:490px;margin:0 auto;position:relative}
-.fs-commonsc2 figure img:first-child{right:70px;margin-bottom:20px;padding-top: 20px;}
+.fs-commonsc2 figure img:first-child{right:70px;position:absolute;}
 .fs-commonsc2 .rightsc p{width:100%}
 .fs-commonsc2 .rightsc{padding:65px 15px 0 50px}
-.fs-commonsc3 figure{width:290px;text-align:right;left:40px;position:relative;margin:35px 0 0}
+.fs-commonsc3 figure{width:290px;text-align:right;left:40px;position:relative;}
 .fs-commonsc3 figure img:first-child{position:absolute;left:20px;margin:10 auto;height:60px}
 .fs-commonsc3 p{width:100%}
 .fs-commonsc4 figure img:first-child{position:relative;right:40px;top:55px}
@@ -253,15 +253,17 @@ textarea.form-control{height:120px}
 }
 .nav-tabs{width:555px;margin:0 auto;border-radius:12px}
 .nav-tabs>li{margin:0 -15px}
+.fs-teachstu-sc2 p{color:#4a4a4a;font-size:20px;font-weight:700;margin-bottom:25px;}
+.fs-teachstu-sc2 .container-fluid{background-image:url(assets/img/bg1.png);height:615px;background-position:left;background-size:auto;background-repeat:no-repeat;padding-top: 30px;}
+.fs-teachstu-sc2 h3{color: #002e6d;}.fs-teachstu-sc2 h2{color: #002e6d;}
 .fs-teachstu-sc .comment_img{width:200px;height:200px;position:absolute;left:200px;margin-top:-120px}
 .fs-teachstu-sc{padding-top:130px}
-.fs-teachstu-sc *{color:#fff}
+.fs-teachstu-sc h3{color: #fff;}
 .fs-teachstu-sc .container-fluid{background-image:url(assets/img/bg1.png);height:715px;background-position:left;background-size: cover;background-repeat:no-repeat;padding-top: 60px;}
-.fs-teachstu-sc h3{color: #00bfbe;}.fs-teachstu-sc h2{color: #00bfbe;}
 .fs-teachstu-sc .col-lg-3:nth-child(1){padding-top:100px}
 .fs-teachstu-sc .col-lg-3:nth-child(2){padding-top:285px}
 .fs-teachstu-sc .col-lg-3:nth-child(3){padding-top:120px}
-.fs-teachstu-sc .col-lg-3:nth-child(4){padding-top:410px}
+.fs-teachstu-sc .col-lg-3:nth-child(4){padding-top:350px}
 .fs-teachstu-sc #students .col-lg-3:nth-child(4){padding-top:310px}
 .yellow_bg{background:#ffc433}
 .blue_bg{background:#002e6d}

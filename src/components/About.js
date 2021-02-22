@@ -56,7 +56,8 @@ export default function About() {
                         <h2 className="fs-heading">Passionate Team <br/> Members</h2>
                         {/* <p>The goal of smart Natives is to create functioning software or hardware by the end of the event. Hackathons tend to have a specific focus, which can include the programming language used, the operating system, an application, an API, or the subject and the demographic group of the programmers.</p> */}
                         <p >We are an international team with different domains. All of us share the passion to work with the younger generation.</p>
-                       <p >Last year together with a team of students Rinku competed in the biggest German school Hackathon #wirfuerschule and was one of the15 winner teams out of the 200 teams.</p>
+                       <p >Last year together with a team of students Rinku competed in the biggest German school Hackathon #wirfuerschule and was one of the 15 winner teams out of the 200 teams. Rinku and Mohammed won the 1st price in the competition for young founders "Exist" of the Frankfurt University of Applied Science.</p>
+                        <p>Julian was among these students. Mohammed is a student in university and joined the team shortly after. Adriane, a teacher specialized in career education, supports the team as a link to schools. Constanze advises on all matters of marketing. </p>
                 </div>
 
             </div>

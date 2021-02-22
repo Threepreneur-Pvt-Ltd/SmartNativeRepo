@@ -25,7 +25,7 @@ export default function SkillZone() {
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <Container >
-                            <Row className="inbox">
+                            <Row >
                                 <Col><h4 className="fs-subheading">The Smart Native Skill Zone helps students to prepare for their first job experience by up skilling them.</h4></Col>
                                 <Col><h4 className="fs-subheading">Together with our cooperating companies we</h4></Col>
                                 <Col>a. design cases similar to first job assignments (case-based)</Col>

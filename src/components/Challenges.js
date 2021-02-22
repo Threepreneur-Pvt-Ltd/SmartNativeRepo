@@ -48,7 +48,7 @@ export default function Challenges() {
                     <Col><h4 className="fs-subheading">Please contact us if you want to submit a challenge, get innovative ideas and help upskill students.</h4></Col>
                     </Row>
                 {data.map((item, i)=>(
-                        <Row className="inbox">
+                        <Row >
                             <Col><h4 className="fs-subheading">{item.title} : {item.description}</h4></Col>
                         </Row>
                     ))}
