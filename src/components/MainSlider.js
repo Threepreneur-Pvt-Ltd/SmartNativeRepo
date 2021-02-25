@@ -18,7 +18,8 @@ function MainSlider() {
                 <div className="inbox">
                     <div className="fs-banner-caption">
                         <h2>Innovation as a Service</h2>
-                        <p>Smart Natives is an upskilling and matching platform that organizes events like Hackathons and innovation challenges to help teenagers and your adults to learn future skills.</p>
+                        <p>Smart Natives is an upskilling and matching platform for teenagers, 
+                          young adults and companies.</p>
                     </div>
                     <div className="fs-bannerthumb">
                         <img src="assets/img/slider1.png" alt="Smart Natives Slider Image" />

@@ -2,24 +2,24 @@ import React from 'react';
 import BlogSliderHome from '../components/BlogSliderHome.js';
 import { Container, Row, Col } from 'react-bootstrap';
 const data = [{
-    "title": "Students learn hard skills like",
-    "description": "Coding, Web Development,UX design, Data Analytics, DigitalMarketing."
+    "title": "Participants learn skills like",
+    "description": " Coding, Web Development, UX Design, Data Analytics, Digital Marketing"
 },
 {
-    "title": "Students also learn",
-    "description": "Design Thinking, Project Management,Entrepreneurship, methods like Fore sigh."
+    "title": "Participants also learn ",
+    "description": "Design Thinking, Project Management, Entrepreneurship, Methods from Future Studies"
 },
 {
     "title": "Content",
-    "description": "YOUR INNOVATION and mega trends + global goal."
+    "description": "YOUR INNOVATION and megatrends + global goals"
 },
 {
     "title": "Teams",
-    "description": "Students 14y+ closed shop or open innovation."
+    "description": "teenagers and young adults 14y+ closed shop or open innovation"
 },
 {
     "title": "Aim",
-    "description": "Sustainable prototype for your challenge and visibility of skill set."
+    "description": "sustainable prototype for your challenge and visibility of skillset. "
 }]
 export default function Challenges() {
     
@@ -30,7 +30,7 @@ export default function Challenges() {
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                     <h3 className="fs-heading">Smart Natives Challenges</h3>
-                    <h4 className="fs-heading">Themes</h4>
+                    {/* <h4 className="fs-heading">Themes</h4> */}
                     {/* <h3 className="fs-subheading"> No Problem is too Big.. No Problem is Too Small</h3> */}
                     <div className="fs-smartnative-carousel ">
                         <BlogSliderHome />
@@ -40,12 +40,14 @@ export default function Challenges() {
         </div>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <Container >
-                <Row>
-                    <Col><h3 className="fs-subheading">Together with the Smart Native Team companies or institutions submit innovation challenges.</h3></Col>
-                    <Col><h3 className="fs-subheading">Throughout the challenges students are coached and consulted by experienced Smart Natives mentors.<br/>Students can track their progress on the platform.</h3></Col>
-                    <Col><h4 className="fs-subheading">Please contact us if you want to submit a challenge, get innovative ideas and help upskill students.</h4></Col>
+                <Row className="gap">
+                   <p><strong>Skilled professionals are the key to innovation and competitiveness, to growth and employment. <br></br>We see a gap between the shortage of young skilled workers in the job market and the qualification of teenagers and young adults to prepare adequately for later job assignments.</strong></p>
+                    <p><strong>Our partners submit innovation challenges after we identified, clarified and set the goal each partner has. The Smart Native Team then creates roadmaps with the cooperating partners to find an individual solution.</strong></p>
+<br></br>                    
+            <p><strong>Throughout the challenges participants are coached by experienced Smart Natives mentors usually in collaboration with employees of our partners. </strong></p>
+                    <p><strong>Please contact us if you want to submit a challenge, get innovative ideas, to upskill your prospective future employees and if you believe in diversity and inclusion. </strong></p>
                     </Row>
                 {data.map((item, i)=>(
                         <Row >

@@ -237,7 +237,7 @@ textarea.form-control{height:120px}
 .fs-commonsc4 figure img:first-child{position:relative;right:40px;top:55px}
 .fs-commonsc4 figure{width:420px;margin:0 auto;position:relative}
 .fs-commonsc4 .rightsc{padding:65px 15px 0 50px}
-.fs-commonsc4 .comment_img{right:-115px;top:-60px}
+.fs-commonsc4 .comment_img{right:-115px;top:130px}
 .fs-commonsc4 .rightsc p{width:100%}
 .nav-tabs{border:0}
 .nav>li>a:focus,.nav>li>a:hover{text-decoration:none;background-color:#fff;border-color:#34547f}
@@ -253,13 +253,83 @@ textarea.form-control{height:120px}
 }
 .nav-tabs{width:555px;margin:0 auto;border-radius:12px}
 .nav-tabs>li{margin:0 -15px}
+
+
+ .faq1{text-align: center; margin-top: 20px;}
+  
+  
+ 
+  
+  /* .active, .accordion:hover {
+    background-color: #ccc; 
+  } */
+  
+  /* .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }  */
+
+.gap{
+    line-height: 5px;
+    word-spacing: 5px;
+    line-height-step: 5px;
+    font-size: 20px;
+}
+
+  .card{margin: 10px;
+
+    margin-top: 10px;
+} 
+.card .answer{
+    margin-top: 10px;
+}
+  
+  .header1{
+    background-color: #52D8D8;
+    background-image: url('./assets/img/plusicon.png');
+    background-position: 98% ;
+    background-repeat: no-repeat;
+    
+    border-radius: 0px;
+    width: 100%;
+   text-align: left;
+   margin-top: 10px;
+  }
+  
+ 
+ 
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.left{ float: left; width: 50%; text-align: justify; word-spacing: 5px; line-height: 100px; padding-left: 50px;}
+.right{float: right; width: 50%; text-align: justify; word-spacing: 5px; line-height: 10px;}
+ .faq{text-align: justify;}
+.fs-teachstu-sc .container-fluid .container .tab-content #students .container .text{margin-top:-750px; position: relative;}
+.fs-teachstu-sc .container-fluid .container .tab-content #teachers .container .text{margin-top:-750px; position: relative;}
 .fs-teachstu-sc2 p{color:#4a4a4a;font-size:20px;font-weight:700;margin-bottom:25px;}
-.fs-teachstu-sc2 .container-fluid{background-image:url(assets/img/bg1.png);height:615px;background-position:left;background-size:auto;background-repeat:no-repeat;padding-top: 30px;}
+.fs-teachstu-sc2 .container-fluid{background-image:url(assets/img/bg1.png);height:615px;background-position:left;background-size:auto;background-repeat:no-repeat;padding-top: 170px;}
 .fs-teachstu-sc2 h3{color: #002e6d;}.fs-teachstu-sc2 h2{color: #002e6d;}
 .fs-teachstu-sc .comment_img{width:200px;height:200px;position:absolute;left:200px;margin-top:-120px}
 .fs-teachstu-sc{padding-top:130px}
 .fs-teachstu-sc h3{color: #fff;}
-.fs-teachstu-sc .container-fluid{background-image:url(assets/img/bg1.png);height:715px;background-position:left;background-size: cover;background-repeat:no-repeat;padding-top: 60px;}
+.fs-teachstu-sc .container-fluid{background-image:url(assets/img/bg1.png);height:715px;background-position:left;background-size: cover;background-repeat:no-repeat;padding-top: 60px; margin-top: 600px;}
 .fs-teachstu-sc .col-lg-3:nth-child(1){padding-top:100px}
 .fs-teachstu-sc .col-lg-3:nth-child(2){padding-top:285px}
 .fs-teachstu-sc .col-lg-3:nth-child(3){padding-top:120px}
@@ -306,7 +376,7 @@ textarea.form-control{height:120px}
 .fs-smartnative-carousel{position:relative}
 .fs-smartnative-carousel .img-size{height:250px;}
 .fs-smart-sc .comment_img.leftside{left:50px;top:-10px}
-.fs-smart-sc .comment_img.rightside{right:50px;top:-50px;
+.fs-smart-sc .comment_img.rightside{right:50px;top:600px;
     transform:rotate(100deg);
     -webkit-transform:rotate(100deg);
     -moz-transform:rotate(100deg);
@@ -1057,6 +1127,11 @@ filter: invert(1);
 .fs-commonsc4 figure img:first-child {
     width: auto;
 }
+
+
+
+
+
 .comment_img {
     display: none;
 }

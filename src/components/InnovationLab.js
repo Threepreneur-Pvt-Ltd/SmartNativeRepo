@@ -10,15 +10,8 @@ export default function InnovationLab() {
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                     <Container >
                           <h3 className="fs-heading">INNOVATION LAB</h3>
-                        <Row >
-                            <Col><h4 className="fs-subheading">A maker space is a place where you can explore and experiment both digital and analog.</h4></Col>
-                            <Col><h4 className="fs-subheading">We have one maker space in Bad Vilbel and the mobileTecTruck which covers events all over Germany.</h4></Col>
-                            
-                            <Col><h4 className="fs-subheading">Our innovation lab is a shelter and a room for ideas both digital and analog that gives Smart Natives a second home in the real world.<br/>Coworking space for our local partners and of course an out-of-school learning center where school classes can work on extracurricular projects.</h4></Col>
-                           
-                        </Row>
-                        
-                        <div className="row">
+
+                          <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                                 <div className="comment_img leftside">
                                     <img src="assets/img/round1.png" className="blue_img" />
@@ -31,6 +24,18 @@ export default function InnovationLab() {
                                     <img src="assets/img/round2.png" className="skyblue_img" />
                                 </div>
                         </div>
+
+
+
+                        <Row >
+                            <Col><h4 className="fs-subheading">Our Innovation Lab is a place where you can explore and experiment both with digital and analog tools. </h4></Col>
+                            <Col><h4 className="fs-subheading">We have one Innovation Lab in Bad Vilbel and partner with few others across Europe and with our mobile TecTruck we cover events<br></br> all over Germany.</h4></Col>
+                            
+                            <Col><h4 className="fs-subheading">Our Innovation lab is a room for ideas both digital and analog that gives Smart Natives a second home in the real world. It's a coworking space <br></br>for our local partners and of course an out-of-school learning center where school classes can work on extracurricular projects.</h4></Col>
+                           
+                        </Row>
+                        
+                      
                 </Container>
                 </div>
               </div>

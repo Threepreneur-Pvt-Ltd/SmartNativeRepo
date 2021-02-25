@@ -26,14 +26,15 @@ export default function SkillZone() {
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <Container >
                             <Row >
-                                <Col><h4 className="fs-subheading">The Smart Native Skill Zone helps students to prepare for their first job experience by up skilling them.</h4></Col>
-                                <Col><h4 className="fs-subheading">Together with our cooperating companies we</h4></Col>
+                                <Col><h4 className="fs-subheading">Most young professionals especially from a diverse background struggle with their first job experience. The Smart Native Skill Zone helps <br></br>participants to prepare for their first job assignment by upskilling them. <br></br>The aim is to bring companies and potential employees closer together by giving them an equal access to our platform to collaborate on a <br></br>specific project and therefore introducing future employers to a more diverse and inclusive pool of applicants.</h4></Col>
+                                <Col><h4 className="fs-subheading">Together with our partners we </h4></Col>
                                 <Col>a. design cases similar to first job assignments (case-based)</Col>
                                 <Col>b. define a skill set and an age group</Col>
                                 <Col>c. define a course program</Col>
-                                <Col><h4 className="fs-subheading">Students can register for these assignments and work as a team on a case.</h4></Col>
-                                <Col><h4 className="fs-subheading">Smart Native mentors coach the teams and monitor the progress with the platform.<br/> Afterwards we give students the chance to apply for or even win an internship.</h4></Col>
-                                <Col><h4 className="fs-subheading">Only your dedication and motivation towards the tasksmatter the most.We encourage diversity!</h4></Col>
+                                <Col><h4 className="fs-subheading">Participants can register for these assignments and work as a team on a case. </h4></Col>
+                                <Col><h4 className="fs-subheading">Smart Native mentors support and monitor the progress.<br/> Afterwards we give students the chance to apply for an internship.</h4></Col>
+                                {/* <Col><h4 className="fs-subheading">Afterwards we give students the chance to apply for an internship.</h4></Col> */}
+                                <Col><h4 className="fs-subheading">Please contact us if you want to submit a case or a challenge and benefit from a more diverse pool of applicants. </h4></Col>
                             </Row>
                     </Container>
                 </div>
