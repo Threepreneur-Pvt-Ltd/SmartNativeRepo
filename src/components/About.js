@@ -28,7 +28,7 @@ export default function About() {
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <Row>
                             <h3 className="fs-heading">Our Vision</h3>
-                            <Col><h4 className="fs-subheading">Smart Natives are prosumers who co-create and inspire people around the globe through the power of sustainable business transformation. We are driving impact across the country to achieve our vision to<br></br><h3><strong> Give every individual the opportunity to attain an excellent skill set and join the journey from Digital to Smart Native. </strong></h3>  </h4></Col>
+                            <Col><h4 className="fs-subheading">Smart Natives are prosumers who co-create and inspire people around the globe through the power of sustainable business transformation. We are driving impact across the country to achieve our vision to<br></br><h3 ><strong className="darkblue"> Give every individual the opportunity to attain an excellent skill set and join the journey from Digital to Smart Native. </strong></h3>  </h4></Col>
                             
                         </Row>
                     </div>

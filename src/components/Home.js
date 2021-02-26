@@ -34,7 +34,7 @@ function Home() {
 
 <p>Our Smart Natives Innovation as a Service framework fuels collaboration between the youth and organisations to identify the next big ideas, bridges the gap and leverages the potential. We believe that developing the skills and offering unrestricted access is necessary to thrive in an ever-changing world and changes consumer into prosumer.</p>
                <br></br>
-<p>Smart Natvies - The journey from Digtial to Smart. </p>                </div>
+<p className="darkblue">Smart Natvies - The journey from Digtial to Smart. </p>                </div>
                 </div>
         <div className=" container-fluid">
             
@@ -168,7 +168,7 @@ function Home() {
 
 <p>Our Smart Natives Innovation as a Service framework fuels collaboration between the youth and organisations to identify the next big ideas, bridges the gap and leverages the potential. We believe that developing the skills and offering unrestricted access is necessary to thrive in an ever-changing world and changes consumer into prosumer.</p>
                <br></br>
-<p>Smart Natvies - The journey from Digtial to Smart. </p> 
+<p className="darkblue">Smart Natvies - The journey from Digtial to Smart.</p> 
                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" >
                         <iframe width="260" height="166" src="https://www.youtube.com/embed/dVqZQsjkyHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
                     </div> 
@@ -304,27 +304,35 @@ function Home() {
                
             <div className="container">
                 <div className="text"> 
-                     <div class="left">               
+                     <div class="left heading1">               
                     <h1>We Deliver Tailored,<br></br> <br></br>Measurable & Practical <br></br> <br></br>  Business Innovation & <br></br> <br></br>Skills Solutions.</h1> 
+                        
+                        
+                    <div className="form-group">
+                               <a href="https://wnc0tb5cjoh.typeform.com/to/JzSYqWTC"> <input type="submit" className="form-control sub_btn1" value="Contact Us" /></a>
+                            </div> 
+                        
                         </div>
 
                         <div class="right"> 
-                        <h2>Tailored</h2>              
+                        <h2 className="heading1">Tailored</h2>              
                     <h4>We turn your project vision into reality by analyzing your needs and 
                         constraints. We build a tailored, end-to-end solution that will meet every one of your KPIs.</h4> 
                         
                         <br></br><br></br>
-                        <h2>Measurable</h2>
+                        <h2 className="heading1">Measurable</h2>
                         <h4>Like every other business aspect in your company, innovative  projects should provide measurable indicators of effectiveness. Our hands-on approach makes it possible to track and visualize actual needs, available skills and abilities rather than just engagement or completion rates.</h4>
                         <br></br><br></br>
 
-                        <h2>Practical</h2>
-                        <h4>Ideas are only good if you can generate & implement them at a reasonable effort and cost. We attract highly specialized mentors and creative young minds to solve your organizational challenges. </h4>
+                        <h2 className="heading1">Practical</h2>
+                        <h4>Ideas are only good if you can generate & implement them at a reasonable effort and costs. We attract highly specialized mentors and creative young minds to solve your organizational challenges. </h4>
                         <br></br><br></br>
 
-                        <h2>Delivered</h2>
-                        <h4>From planning the right format  and development innovation strategy to a full execution: branding and marketing aspects (if needed), content delivery, analysis, and more. We provide you with the ultimate turn-key solution that is tailored to your needs.</h4>
+                        <h2 className="heading1">Delivered</h2>
+                        <h4>From planning the right format and developing impactful innovation strategy to a full execution: branding and marketing aspects (if needed), content delivery, analysis, and more. We provide you with the ultimate turn-key solution that is tailored to your needs.</h4>
 
+
+                             
                         </div>
              </div> 
              </div>
@@ -344,7 +352,7 @@ function Home() {
                             
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                                  
-                                <div className="inbox text-center">
+                                <div className="inbox text-center" >
                                    
                                     <h3>Innovation as <br/>a Service</h3>
                                     <img src="assets/img/student4.png" />
@@ -374,24 +382,31 @@ function Home() {
                     <div id="students" className="tab-pane fade">
                     <div className="container">
                 <div className="text"> 
-                     <div class="left">               
+                     <div class="left heading1">               
                     <h1>We Deliver Tailored,<br></br> <br></br>Measurable & Upskilling<br></br> <br></br> Solutions. </h1> 
+                       
+                    <div className="form-group">
+                               <a href="https://wnc0tb5cjoh.typeform.com/to/JzSYqWTC"> <input type="submit" className="form-control sub_btn1" value="Contact Us" /></a>
+                            </div> 
+                       
+                       
+                       
                         </div>
 
                         <div class="right"> 
-                        <h2>Tailored</h2>              
+                        <h2 className="heading1">Tailored</h2>              
                     <h4>We turn your learning and personal development vision into reality by analyzing your needs and constraints. Real-life  micro challenges are a great opportunity to explore new things. </h4> 
                         
                         <br></br><br></br>
-                        <h2>Measurable</h2>
-                        <h4>Like every other business aspect in your company, learning projects should provide measurable indicators of effectiveness. Our hands-on training makes it possible to track and visualize actual skills and abilities rather than just engagement or completion rates.</h4>
+                        <h2 className="heading1">Measurable</h2>
+                        <h4>Learning projects should provide measurable indicators of effectiveness to prepare you for your future. Our hands-on training makes it possible to track and visualize actual skills and abilities rather than just learning by rote.</h4>
                         <br></br><br></br>
 
-                        <h2>Practical</h2>
-                        <h4>We provide the space and the right environment for participants to work on challenges, present solutions and get badges for it. Participantscan also showcase their work by allowing them to expose to the community their very own innovations or challenges. Can you imagine a world where you could work with Porsche one day and with Spotify the next? </h4>
+                        <h2 className="heading1">Practical</h2>
+                        <h4>We provide the space and the right environment for participants to work on challenges, present solutions and get badges for it. Participants can also showcase their work by allowing them to expose to the community their very own innovations or challenges. Can you imagine a world where you could work with Porsche one day and with Spotify the next? </h4>
                         <br></br><br></br>
 
-                        <h2>Delivered</h2>
+                        <h2 className="heading1">Delivered</h2>
                         <h4>Practical, hands-on skills training is the core of our expertise. Our blended training combines both self-learn and live mentorship to get the best out of every participant.</h4>
 
                         </div>

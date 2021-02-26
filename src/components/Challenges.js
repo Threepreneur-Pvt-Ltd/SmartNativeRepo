@@ -51,7 +51,7 @@ export default function Challenges() {
                     </Row>
                 {data.map((item, i)=>(
                         <Row >
-                            <Col><h4 className="fs-subheading">{item.title} : {item.description}</h4></Col>
+                            <Col><h4 className="fs-subheading darkblue" >{item.title} : {item.description}</h4></Col>
                         </Row>
                     ))}
                 </Container>

@@ -28,9 +28,9 @@ export default function SkillZone() {
                             <Row >
                                 <Col><h4 className="fs-subheading">Most young professionals especially from a diverse background struggle with their first job experience. The Smart Native Skill Zone helps <br></br>participants to prepare for their first job assignment by upskilling them. <br></br>The aim is to bring companies and potential employees closer together by giving them an equal access to our platform to collaborate on a <br></br>specific project and therefore introducing future employers to a more diverse and inclusive pool of applicants.</h4></Col>
                                 <Col><h4 className="fs-subheading">Together with our partners we </h4></Col>
-                                <Col>a. design cases similar to first job assignments (case-based)</Col>
-                                <Col>b. define a skill set and an age group</Col>
-                                <Col>c. define a course program</Col>
+                                <Col><p className="darkblue">a. design cases similar to first job assignments (case-based)</p></Col>
+                                <Col><p className="darkblue">b. define a skill set and an age group</p></Col>
+                                <Col><p className="darkblue">c. define a course program</p></Col>
                                 <Col><h4 className="fs-subheading">Participants can register for these assignments and work as a team on a case. </h4></Col>
                                 <Col><h4 className="fs-subheading">Smart Native mentors support and monitor the progress.<br/> Afterwards we give students the chance to apply for an internship.</h4></Col>
                                 {/* <Col><h4 className="fs-subheading">Afterwards we give students the chance to apply for an internship.</h4></Col> */}
@@ -45,7 +45,7 @@ export default function SkillZone() {
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2 className="fs-heading">Explore Smart Natives </h2>
+                    <h2 className="fs-heading">Features of our Smart Natives Platform </h2>
                 </div> 
             </div>
 
