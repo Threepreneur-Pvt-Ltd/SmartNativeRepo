@@ -103,6 +103,8 @@ export default function About() {
                    <img src="assets/img/clogo9.jpg" />
                    {/* <img src="assets/img/clogo10.jpg" /> */}
                 </div>
+
+               
             </div>
       </div>
     </section>

@@ -9,9 +9,9 @@ const data = [
       id:1,
       title:"GirlsinAI Hackathon",
       description:"GirlsinAI Hackathon in cooperation with Teens in AI 11 - 12 March.",
-      image: 'assets/img/student2.png',
-      class: "skyblue_bg",
-      URL1: "Click Here"
+      image: 'assets/img/teensai.jpeg',
+      class: "yellow_bg",
+      URL1: "Check now"
   },
   {
     id:2,
@@ -19,18 +19,19 @@ const data = [
     description:"One Month Long Bug Bounty Learning Bootcamps for Kids.",
     image: 'assets/img/Hackonfest2020logo.png',
     class: "yellow_bg",
-    URL2: "Click Here"
+    URL2: "Check now"
 },
 
 {
   id:3,
     title:"Zero Waste Challenge",
-    description:"Go Kidogo means small steps - big change",
+    description:"Go Kidogo means small steps - big change.",
     image: 'assets/img/gokid1.jpeg',
     class: "yellow_bg",
-    URL: "Click Here"
+    URL: "Check now"
     
 },
+
 
 ]
 export default function Events() {
@@ -71,14 +72,17 @@ export default function Events() {
                             <OwlCarousel
                                   className="owl-theme"
                                   // loop
+                                  
+                                   
                                   margin={10}
                                   nav={true}
                                   items = {item}
-                                  // autoplay = {true}
-                                  autoplayTimeout = {3000}
+                                  autoplay = {true}
+                                  // autoplayTimeout = {3000}
+                                  
                               >
                             {data.map((item) => (
-                              <div className="owl-theme " key={item.id}>
+                              <div className="owl-theme" key={item.id}>
                                 <div className="item" >
                                     <div className="inbox">
                                         <figure className={item.class}>
@@ -86,8 +90,8 @@ export default function Events() {
                                            
                                         </figure>
                                         <h3>{item.title}</h3>
-                                        <p >{item.description} </p>
-                                        <a href="https://gokidogo.de">{item.URL}</a>
+                                        <p>{item.description}</p>
+                                        <a  href="https://gokidogo.de">{item.URL}</a>
                                         <a href="https://hackonfest.com">{item.URL2}</a>
                                         
                                     </div>

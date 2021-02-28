@@ -10,7 +10,7 @@ export default function SkillZone() {
             <div className="row">
 
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                    <div className="comment_img leftside">
+                    <div className="comment_img leftside1">
                         <img src="assets/img/round1.png" className="blue_img" />
                         <img src="assets/img/round2.png" className="skyblue_img" />
                     </div>

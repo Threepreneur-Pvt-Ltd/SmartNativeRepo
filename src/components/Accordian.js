@@ -116,7 +116,7 @@ function Accordian() {
       </Accordion.Toggle >
     </Card.Header>
     <Accordion.Collapse eventKey={i+1}>
-      <Card.Body className="answer">{faq.answer}</Card.Body>
+      <Card.Body className="answer" style={{textAlign:'justify'}}><h5 class="faq-col" >{faq.question}</h5>{faq.answer}</Card.Body>
     </Accordion.Collapse>
   </Card>
    ))}

@@ -13,6 +13,7 @@ function Faq({faq, index, toggleFAQ } ) {
 
              
             <div className="faq-answer">
+                
                 {faq.answer} 
             </div>
             

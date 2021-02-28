@@ -10,7 +10,7 @@ function Footer() {
                         <ul>
                             <li><a href="#." target="_blank"><i className="fas fa-map-marker-alt"></i>Lärchenstraße 12 | 61118 Bad Vilbel | Deutschland</a></li>
                             <li><a href="#." target="_blank"><i className="fas fa-phone"></i>+49 162 9107481</a></li>
-                            <li><a href="#." target="_blank"><i className="fas fa-envelope"></i>training@techeroes.de</a></li> 
+                            <li><a href="#." target="_blank"><i className="fas fa-envelope"></i>training@smart-natives.de</a></li> 
                         </ul>
                         <ul className="fs-social-icon list-inline">
                             <li><a href="#." target="_blank"><i className="fab fa-facebook-f"></i></a></li>
@@ -31,8 +31,8 @@ function Footer() {
                     <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <h4>Community</h4>
                         <ul>
-                            <li><a href="#.">Challenge Organisation</a></li>
-                            <li><a href="#.">Explore Hackathon</a></li>
+                            <li><a href="Challenges">Challenge Organisation</a></li>
+                            <li><a href="Events">Explore Hackathon</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
