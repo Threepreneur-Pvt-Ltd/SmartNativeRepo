@@ -93,6 +93,7 @@ export default function Events() {
                                         <p>{item.description}</p>
                                         <a  href="https://gokidogo.de">{item.URL}</a>
                                         <a href="https://hackonfest.com">{item.URL2}</a>
+                                        <a href="https://www.eventbrite.co.uk/e/girlsinai2021-hackathon-frankfurt-tickets-137136102775?utm_campaign=new_attendee&utm_medium=email&utm_source=eb_email&utm_term=event_name">{item.URL1}</a>
                                         
                                     </div>
                                 </div>
