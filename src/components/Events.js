@@ -9,7 +9,7 @@ const data = [
       id:1,
       title:"GirlsinAI Hackathon",
       description:"GirlsinAI Hackathon in cooperation with Teens in AI 11 - 12 March.",
-      image: 'assets/img/teensai.jpeg',
+      image: 'assets/img/Frankfurt.png',
       class: "yellow_bg",
       URL1: "Check now"
   },
@@ -67,7 +67,7 @@ export default function Events() {
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                 <Container>
                     <Row>
-                        <h4 className="fs-heading ">Upcoming Events</h4>
+                        <h4 className="fs-heading ">Upcoming and Ongoing Events</h4>
                             {/* <Col><h4 className="fs-subheading">GirlsinAI Hackathon in cooperation with Teens in AI 11 - 12 March</h4></Col> */}
                             <OwlCarousel
                                   className="owl-theme"
