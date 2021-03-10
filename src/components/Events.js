@@ -7,9 +7,9 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const data = [
   {
       id:1,
-      title:"GirlsinAI Hackathon",
-      description:"GirlsinAI Hackathon in cooperation with Teens in AI 11 - 12 March.",
-      image: 'assets/img/Frankfurt.png',
+      title:"Frankfurt Datascience Youth Hackathon",
+      description:"",
+      image: 'assets/img/frankurt.jpg',
       class: "yellow_bg",
       URL1: "Check now"
   },
@@ -93,7 +93,7 @@ export default function Events() {
                                         <p>{item.description}</p>
                                         <a  href="https://gokidogo.de">{item.URL}</a>
                                         <a href="https://hackonfest.com">{item.URL2}</a>
-                                        <a href="https://www.eventbrite.co.uk/e/girlsinai2021-hackathon-frankfurt-tickets-137136102775?utm_campaign=new_attendee&utm_medium=email&utm_source=eb_email&utm_term=event_name">{item.URL1}</a>
+                                        {/* <a href="https://www.eventbrite.co.uk/e/girlsinai2021-hackathon-frankfurt-tickets-137136102775?utm_campaign=new_attendee&utm_medium=email&utm_source=eb_email&utm_term=event_name">{item.URL1}</a> */}
                                         
                                     </div>
                                 </div>
