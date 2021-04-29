@@ -1,4 +1,4 @@
-    import React from 'react';
+    import React, {useState, useEffect} from 'react';
 import Challenges from './Challenges.js';
 import About from './About.js';
 import SkillZone from './SkillZone.js';
@@ -6,8 +6,31 @@ import InnovationLab from './InnovationLab.js';
 import Badges from './Badges.js';
 import Workshops from './Workshops.js';
 import Events from './Events.js';
+import { injectIntl } from 'react-intl';
+import { connect } from 'react-redux';
+import IntlMessages from '../helpers/IntlMessages';
+import {
+    changeLocale,
+  } from '../redux/actions';
+import {
+    localeOptions,
+  } from '../constants/defaultValues';
 
-function Header() {
+function Header(props) {
+    const handleChangeLocale = (e) => {
+        // console.log(e.target.value)
+        e.preventDefault();
+        changeLocale(e.target.value);
+    
+        // const currentDirection = getDirection().direction;
+        // if (direction !== currentDirection) {
+        //   setDirection(direction);
+          setTimeout(() => {
+            window.location.reload();
+          }, 2000);
+        // }
+      };
+      console.log(localeOptions)
   return (
         <header id="fs-main-header" className="fs-header">
             <div className="container">
@@ -29,10 +52,18 @@ function Header() {
                                 <li><a href="#." target="_blank"><i className="fab fa-youtube"></i></a></li>
                                 <li><a href="#." target="_blank"><i className="fab fa-linkedin"></i></a></li>
                             </ul>  
-
+                            
+                            <div className="dropdown">
+                            <select value={props.locale} onClick={handleChangeLocale}>
+                            {localeOptions.map((l) => (
+                                <option key={l.id} value={l.id}>{l.name}</option>
+                            ))}
+                            </select>
+                            </div>
                             {/* <div className="dropdown">
                               <button className="dropbtn">
                                 <img src="assets/img/english-flag.jpg" title="English" />
+                                <h6>En</h6>
                               </button>
                               <div className="dropdown-content">
                                 <a href="#"><img src="assets/img/french-flag.jpg" title="French" /></a>
@@ -46,13 +77,13 @@ function Header() {
                             } */}
 
                             <ul className="fs-navbar">
-                                <li><a href="/Challenges">Challenges</a></li>
-                                <li><a href="/SkillZone">Skill Zone</a></li>
-                                <li><a href="/InnovationLab">Innovation Lab</a></li>
-                                <li><a href="/Badges">Badges</a></li>
-                                <li><a href="/Events">Events</a></li>
-                                <li><a href="/Workshops">Workshops</a></li>
-                                <li><a href="/About">About</a></li>
+                                <li><a href="/Challenges"><IntlMessages id="menu.challenges" /></a></li>
+                                <li><a href="/SkillZone"><IntlMessages id="menu.skillZone" /></a></li>
+                                <li><a href="/InnovationLab"><IntlMessages id="menu.innovationLab" /></a></li>
+                                <li><a href="/Badges"><IntlMessages id="menu.badges" /></a></li>
+                                <li><a href="/Events"><IntlMessages id="menu.events" /></a></li>
+                                <li><a href="/Workshops"><IntlMessages id="menu.workshops" /></a></li>
+                                <li><a href="/About"><IntlMessages id="menu.about" /></a></li>
                             </ul>   
                                            
                         </div>
@@ -64,4 +95,15 @@ function Header() {
   );
 }
 
-export default Header;
+// export default Header;
+const mapStateToProps = ({ settings }) => {
+    const { locale } = settings;
+    return {
+      locale,
+    };
+  };
+  export default injectIntl(
+    connect(mapStateToProps, {
+      changeLocaleAction: changeLocale,
+    })(Header)
+  );

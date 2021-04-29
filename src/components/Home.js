@@ -4,9 +4,11 @@ import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import Challenges from './Challenges.js';
 import About from './About.js';
 import Accordian from '../components/Accordian.js';
-
+import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 function Home() {
+    const { t, i18n } = useTranslation();
   return (
     <div >
         <section className="fs-banner">
@@ -19,8 +21,8 @@ function Home() {
         <section className="fs-teachstu-sc2 fs-commonsc desktop mobile">
             <div className="container">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"> 
-                    <h2 className="fs-heading">One of the Winning Teams of  </h2>
-                    <h3 className="fs-heading">Germany's largest Educational Hackathon</h3>
+                    <h2 className="fs-heading"><IntlMessages id="main.mainTitle1" /> </h2>
+                    <h3 className="fs-heading"><IntlMessages id="main.mainTitle2" /></h3>
                     {/* <h4 className="fs-heading">#wirfuerschule</h4> */}
                     {/* <h4 className="fs-subheading">Schools don’t prepare enough for modern days’ working environment 
                         Old School is UnCool</h4> */}
@@ -28,11 +30,11 @@ function Home() {
                 
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                     {/* <p>Smart Natives is an upskilling and matching platform for teenagers, young adults and companies. </p> */}
-                    <p>As part of our educational journey, we organize challenges, hackathons, bar camps and workshops.
-<br></br>We give access to challenge-based learning: online, offline and hybrid. These challenges, events and workshops enable participants to easily develop 21st Century Skills and help them utilize megatrends and global sustainable goals as important innovation factors. Participants can learn techniques from domains, such as AI, VR, data science or robotics to solve real life challenges. 
-</p>
+                    <p> <IntlMessages id="main.mainSubTitle1" />
+<br></br> 
+<IntlMessages id="main.mainSubTitle2" /></p>
 
-<p >Our Smart Natives Innovation as a Service framework fuels collaboration between the youth and organisations to identify the next big ideas, bridges the gap and leverages the potential. We believe that developing the skills and offering unrestricted access is necessary to thrive in an ever-changing world and changes consumer into prosumer.</p>
+<p ><IntlMessages id="main.mainSubTitle3" /></p>
                <br></br>
 <p><strong className="darkblue">Smart Natvies - The journey from Digtial to Smart.</strong> </p>                </div>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
+import IntlMessages from '../helpers/IntlMessages';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
@@ -17,9 +18,8 @@ function MainSlider() {
               <div className="item">
                 <div className="inbox">
                     <div className="fs-banner-caption">
-                        <h2>Innovation as a Service</h2>
-                        <p>Smart Natives is an upskilling and matching platform for teenagers, 
-                          young adults and companies.</p>
+                        <h2><IntlMessages id="main.slider1" /></h2>
+                        <p><IntlMessages id="main.slider1Description" /></p>
                     </div>
                     <div className="fs-bannerthumb">
                         <img src="assets/img/slider1.png" alt="Smart Natives Slider Image" />

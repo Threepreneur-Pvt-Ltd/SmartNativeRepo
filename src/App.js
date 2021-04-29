@@ -11,9 +11,18 @@ import InnovationLab from './components/InnovationLab.js';
 import Badges from './components/Badges.js';
 import Workshops from './components/Workshops.js';
 import Events from './components/Events.js';
-function App() {
+import { connect } from 'react-redux';
+import { IntlProvider } from 'react-intl';
+import AppLocale from './lang';
+function App(props) {
+  const { locale } = props;
+  const currentAppLocale = AppLocale[locale];
   return (  
     <div className="Home">
+    <IntlProvider
+      locale={currentAppLocale.locale}
+      messages={currentAppLocale.messages}
+    >
       <Header/>
 
       <main id="fs-main" className="fs-content">   
@@ -68,8 +77,14 @@ function App() {
       <Footer/>
     
     </main>
+        </IntlProvider>
   </div>
   );
 }
 
-export default App;
+const mapStateToProps = ({ settings }) => {
+  const { locale } = settings;
+  return { locale };
+};
+const mapActionsToProps = {};
+export default connect(mapStateToProps, mapActionsToProps)(App);

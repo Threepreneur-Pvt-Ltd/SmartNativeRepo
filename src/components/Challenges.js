@@ -1,6 +1,7 @@
 import React from 'react';
 import BlogSliderHome from '../components/BlogSliderHome.js';
 import { Container, Row, Col } from 'react-bootstrap';
+import IntlMessages from '../helpers/IntlMessages';
 const data = [{
     "title": "Participants learn skills like",
     "description": " Coding, Web Development, UX Design, Data Analytics, Digital Marketing"
@@ -29,7 +30,7 @@ export default function Challenges() {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                    <h3 className="fs-heading">Smart Natives Challenges</h3>
+                    <h3 className="fs-heading">Smart Natives <IntlMessages id="menu.challenges" /></h3>
                     {/* <h4 className="fs-heading">Themes</h4> */}
                     {/* <h3 className="fs-subheading"> No Problem is too Big.. No Problem is Too Small</h3> */}
                     <div className="fs-smartnative-carousel ">
