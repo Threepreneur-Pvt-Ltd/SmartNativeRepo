@@ -39,7 +39,8 @@ function MainSlider() {
               <div className="item slide3">
                 <div className="inbox">
                   <div className="fs-banner-caption">
-                      <p>We believe in #youthempowerment </p>
+                    <p> <IntlMessages id="main.slider2"/></p>
+                    
                       {/* <a href="#." className="btn">Learn More</a> */}
                   </div>
                   <div className="fs-bannerthumb">

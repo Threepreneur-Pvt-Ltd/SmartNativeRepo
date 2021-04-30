@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 export default function Workshops() {
   return (
@@ -26,11 +28,11 @@ export default function Workshops() {
                         </div>
 
                         <Row >
-                            <Col><h4 className="fs-subheading">Smart Natives organizes co-creation workshops for modern methods, IT-skills and Digital Literacy.</h4></Col>
-                            <Col><h4 className="fs-subheading">These workshops can be used to upskill but also to inform and shed light on topics like Cybersecurity, AI Ethics or simply Algorithms. </h4></Col>
-                            <Col><h4 className="fs-subheading">Our workshops are creative and engaging because we combine our experience, our diverse background and<br/> our passion to empower and inform so that everybody is competent in the digital world.</h4></Col>
-                            <Col><h4 className="fs-subheading">We help both companies and students to innovate their upskilling and education methods. </h4></Col>
-                            <Col><h4 className="fs-subheading">Our workshops can be hosted online, in your company or in a school or institution.<br></br> Contact us for further information! </h4></Col>
+                            <Col><h4 className="fs-subheading"><IntlMessages id="workshop.col1"/></h4></Col>
+                            <Col><h4 className="fs-subheading"> <IntlMessages id="workshop.col2.a1"/><br></br><IntlMessages id="workshop.col2.a2"/></h4></Col>
+                            <Col><h4 className="fs-subheading"><IntlMessages id="workshop.col3.a1"/><br/><IntlMessages id="workshop.col3.a2"/></h4></Col>
+                            <Col><h4 className="fs-subheading"><IntlMessages id="workshop.col4"/></h4></Col>
+                            <Col><h4 className="fs-subheading"><IntlMessages id="workshop.col5.a1"/><br></br> <IntlMessages id="workshop.col5.a2"/></h4></Col>
                           </Row>
                         
                       

@@ -1,4 +1,6 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 function Footer() {
   return (
@@ -31,8 +33,8 @@ function Footer() {
                     <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <h4>Community</h4>
                         <ul>
-                            <li><a href="Challenges">Challenge Organisation</a></li>
-                            <li><a href="Events">Explore Hackathon</a></li>
+                            <li><a href="Challenges"></a><IntlMessages id="footer.challenge"/></li>
+                            <li><a href="Events"></a><IntlMessages id="footer.explore"/></li>
                         </ul>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">

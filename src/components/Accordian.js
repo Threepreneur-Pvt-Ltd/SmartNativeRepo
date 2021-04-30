@@ -1,57 +1,58 @@
 import React,{useState} from 'react'
 import Faq from '../components/Faq.js';
 import Accordion from 'react-bootstrap/Accordion';
-import {Button, Card} from 'react-bootstrap';
+import {Button, Card} from 'react-bootstrap';import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 function Accordian() {
     const [faqs, setfaqs]=useState([
        {
-          question: 'Do you focus on certain industries or organisations?',
-          answer: 'Since we tailor our solution to your needs, our solutions can cover most industries and challenges, including communities outside of your organization. Smart Natives are popular within the technology and sustainability consulting sector.',
+          question: <IntlMessages id="question1"/>,
+          answer: <IntlMessages id="answer1"/>,
           open: false
         }, 
        {
-          question:'What kind of skills training do you offer?',
-          answer:'We offer the most in-demand skills in Technology, R&D, Data, and Business verticals. Business and organisational transformation within the Governmental and non-profit sector is among our key',
+          question:<IntlMessages id="question2"/>,
+          answer:<IntlMessages id="answer2"/>,
           open: false
        },
        {
-          question:'What training methodology do you use?',
-          answer:'Smart Natives is known for its’ Blended Learning methodology - combining self-learning and live guided mentorship.',
+          question:<IntlMessages id="question3"/>,
+          answer:<IntlMessages id="answer3"/>,
           open:false
        },
        {
-           question:'Do your services apply to a certain seniority level?',
-           answer:'Our approach, knowledge, experience, and methodology can be relevant and applied for every seniority level - from beginners to juniors and up to senior level.',
+           question:<IntlMessages id="question4"/>,
+           answer:<IntlMessages id="answer4"/>,
            open:false
         },
 
         {
-           question:'Where do your trainers come from?',
-           answer:'Our mentors are from various domains, with practical hands-on experience, equipped with the right skills to pass their knowledge.',  
+           question:<IntlMessages id="question5"/>,
+           answer:<IntlMessages id="answer5"/>,
            open:false
         },
         {
-        question:'What are Barcamps?',
-        answer:'Bar Camps are similar to the Open Space method sessions, but are looser organized. It consists of lectures and discussion sessions (sessions) that are co-ordinated on whiteboards, metaplases or bulletin boards each morning by the participants themselves. Specifically, it is important to observe the Bar Camp rules, otherwise the format is completely open.',
+        question:<IntlMessages id="question6"/>,
+        answer:<IntlMessages id="answer6"/>,
          open:false    
        },
 
        {
-           question:'What is a Hackathon?',
-           answer:'The word Hackathon is a contraction of “Hack” and “Marathon”. “Hack” may be used in the sense of hacking into a computer system, but I prefer the broader sense of finding a quick solution (a “hack”) to solve a particular problem. The idea is to gather motivated people, form teams, give them a challenge to solve in a short time-frame (usually a day or a weekend) and let the magic happen!',
+           question:<IntlMessages id="question7"/>,
+           answer:<IntlMessages id="answer7"/>,
            open:false
         },
 
         {
-            question:'What is Innovation as a Service?',
-            answer:'Innovation as a service is a pragmatic process to inspire and create new innovative experiments (that have a strategic impact on your organization). Together with the key people of your organization we will ideate and jointly craft a list of innovative experiments shaping your digital transformation journey. Afterwards, this list of experiments will be prioritized based on the strategy and vision of your company.',
+            question:<IntlMessages id="question8"/>,
+            answer:<IntlMessages id="answer8"/>,
             open:false
         },
 
         {
-          question:'What is a makerspace?',
-          answer:'A makerspace is a collaborative work space inside a school, library or separate public/private facility for making, learning, exploring and sharing that uses high tech to no tech tools.  These spaces are open to kids, adults, and entrepreneurs and have a variety of maker equipment including 3D printers, laser cutters, cnc machines, soldering irons and even sewing machines. ',
+          question:<IntlMessages id="question9"/>,
+          answer:<IntlMessages id="answer9"/>,
           opne:false
         }
 

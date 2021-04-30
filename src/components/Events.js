@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 const data = [
   {
@@ -53,9 +55,12 @@ export default function Events() {
                     <h3 className="fs-heading">Events</h3>
                         <Container >
                         <Row >
-                                <Col><h4 className="fs-subheading">We organize events like hackathons, robotic competitions or bar camps both online and offline.</h4></Col>
-                                <Col><h4 className="fs-subheading">We work interdisciplinary and combine both digital tools, hands-on methodology. <br/>We believe that the combination of analog and digital, tradition and modernity, is key to learning.  <br/>If you want to organize an event contact us!<br></br> Also check out our workshops and contact us for further information.
-</h4></Col>
+                                <Col><h4 className="fs-subheading"><IntlMessages id="event.col1"/></h4></Col>
+                                <Col><h4 className="fs-subheading"><IntlMessages id="event.col2.a1"/>
+                                 <br/> <IntlMessages id="event.col2.a2"/> 
+                                 <br/> <IntlMessages id="event.col2.a3"/>
+                                 <br></br> <IntlMessages id="event.col2.a4"/>
+                          </h4></Col>
                                 
                             </Row>
                     </Container>
@@ -67,7 +72,7 @@ export default function Events() {
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                 <Container>
                     <Row>
-                        <h4 className="fs-heading ">Upcoming and Ongoing Events</h4>
+                        <h4 className="fs-heading "><IntlMessages id="event.heading"/></h4>
                             {/* <Col><h4 className="fs-subheading">GirlsinAI Hackathon in cooperation with Teens in AI 11 - 12 March</h4></Col> */}
                             <OwlCarousel
                                   className="owl-theme"

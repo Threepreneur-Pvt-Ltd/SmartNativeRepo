@@ -363,7 +363,7 @@ textarea.form-control{height:120px}
 .right{float: right; width: 50%; text-align: justify; word-spacing: 5px; line-height: 10px;}
  .faq{text-align: justify;}
 .fs-teachstu-sc .container-fluid .container .tab-content #students .container .text{margin-top:-750px; position: relative;}
-.fs-teachstu-sc .container-fluid .container .tab-content #teachers .container .text{margin-top:-750px; position: relative;}
+.fs-teachstu-sc .container-fluid .container .tab-content #teachers .container .text{margin-top:-750px; position: relative;}  #students{height: 500px;}
 .fs-teachstu-sc2 p{color:#4a4a4a;font-size:20px;font-weight:700;margin-bottom:25px;}
 .fs-teachstu-sc2 .container-fluid{background-image:url(assets/img/bg1.png);height:615px;background-position:left;background-size:auto;background-repeat:no-repeat;padding-top: 170px;}
 .fs-teachstu-sc2 h3{color: #002e6d;}.fs-teachstu-sc2 h2{color: #002e6d;}

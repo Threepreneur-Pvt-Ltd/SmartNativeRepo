@@ -2,25 +2,28 @@ import React from 'react';
 import BlogSliderHome from '../components/BlogSliderHome.js';
 import { Container, Row, Col } from 'react-bootstrap';
 import IntlMessages from '../helpers/IntlMessages';
+import { useTranslation } from "react-i18next";
+
+
 const data = [{
-    "title": "Participants learn skills like",
-    "description": " Coding, Web Development, UX Design, Data Analytics, Digital Marketing"
+    "title": <IntlMessages id="challenge.subtitle1"/>,
+    "description": <IntlMessages id="challenge.subdescription1"/>
 },
 {
-    "title": "Participants also learn ",
-    "description": "Design Thinking, Project Management, Entrepreneurship, Methods from Future Studies"
+    "title": <IntlMessages id="challenge.subtitle2"/>,
+    "description": <IntlMessages id="challenge.subdescription2"/>
 },
 {
-    "title": "Content",
-    "description": "YOUR INNOVATION and megatrends + global goals"
+    "title": <IntlMessages id="challenge.subtitle3"/>,
+    "description": <IntlMessages id="challenge.subdescription3"/>
 },
 {
-    "title": "Teams",
-    "description": "teenagers and young adults 14y+ closed shop or open innovation"
+    "title": <IntlMessages id="challenge.subtitle4"/>,
+    "description": <IntlMessages id="challenge.subdescription4"/>
 },
 {
-    "title": "Aim",
-    "description": "sustainable prototype for your challenge and visibility of skillset. "
+    "title": <IntlMessages id="challenge.subtitle5"/>,
+    "description": <IntlMessages id="challenge.subdescription5"/>
 }]
 export default function Challenges() {
     
@@ -44,11 +47,11 @@ export default function Challenges() {
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <Container >
                 <Row className="gap">
-                   <p><strong>Skilled professionals are the key to innovation and competitiveness, to growth and employment. <br></br>We see a gap between the shortage of young skilled workers in the job market and the qualification of teenagers and young adults to prepare adequately for later job assignments.</strong></p>
-                    <p><strong>Our partners submit innovation challenges after we identified, clarified and set the goal each partner has. The Smart Native Team then creates roadmaps with the cooperating partners to find an individual solution.</strong></p>
+                   <p><strong><IntlMessages id="challenge.heading1"/><br></br><IntlMessages id="challenge.heading2"/></strong></p>
+                    <p><strong><IntlMessages id="challenge.heading3"/></strong></p>
 <br></br>                    
-            <p><strong>Throughout the challenges participants are coached by experienced Smart Natives mentors usually in collaboration with employees of our partners. </strong></p>
-                    <p><strong>Please contact us if you want to submit a challenge, get innovative ideas, to upskill your prospective future employees and if you believe in diversity and inclusion. </strong></p>
+            <p><strong><IntlMessages id="challenge.heading4"/> </strong></p>
+                    <p><strong> <IntlMessages id="challenge.heading5"/></strong></p>
                     </Row>
                 {data.map((item, i)=>(
                         <Row >

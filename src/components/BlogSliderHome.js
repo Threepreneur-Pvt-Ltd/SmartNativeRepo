@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 function BlogSliderHome() {
  
@@ -18,78 +20,78 @@ function BlogSliderHome() {
   const data = [
       {
           id:1,
-          title:"Smart Communication",
-          description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
+          title:<IntlMessages id="challenge.title1"/>,
+          description:<IntlMessages id="challenge.description1"/>,
           image: 'assets/img/slider/1.png',
           class: "skyblue_bg"
       },
       {
           id:2,
-          title:"Healthcare & Biomedical devices",
-          description:"Designing devices that would help in managing healthcare better.",
+          title:<IntlMessages id="challenge.title2"/>,
+          description:<IntlMessages id="challenge.description2"/>,
           image: 'assets/img/slider/2.png',
           class: "yellow_bg"
       },
       {
           id:3,
-          title:"Agriculture Rural Development",
-          description:"Designing devices keeping in mind the need to enhance the primary sector of India Agriculture and our Rural Population.",
+          title:<IntlMessages id="challenge.title3"/>,
+          description:<IntlMessages id="challenge.description3"/>,
           image: 'assets/img/slider/7.png',
           class: "blue_bg"
       },
       {
           id:4,
-          title:"Smart Vehicles",
-          description:"Need to Create intelligent devices to improve commutation sector, transportation and etc.",
+          title:<IntlMessages id="challenge.title4"/>,
+          description:<IntlMessages id="challenge.description4"/>,
           image: 'assets/img/slider/3.png',
           class: "yellow_bg"
       },
       {
           id:5,
-          title:"Food Processing",
-          description:"Creating state-of-the-art solutions to manage and process our agriculture produce.",
+          title:<IntlMessages id="challenge.title5"/>,
+          description:<IntlMessages id="challenge.description5"/>,
           image: 'assets/img/slider/6.png',
           class: "skyblue_bg"
       },
       {
           id:6,
-          title:"Robotics and Drones",
-          description:"Need to design drones and robots that can solve some of the pressing challenges of medical emergencies.",
+          title:<IntlMessages id="challenge.title6"/>,
+          description:<IntlMessages id="challenge.description6"/>,
           image: 'assets/img/slider/8.png',
           class: "yellow_bg"
       },
       {
           id:7,
-          title:"Waste management",
-          description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
+          title:<IntlMessages id="challenge.title7"/>,
+          description:<IntlMessages id="challenge.description7"/>,
           image: 'assets/img/slider/4.png',
           class: "blue_bg"
       },
       {
           id:8,
-          title:"Clean water",
-          description:"Creating state-of-the-art devices to improve distribution, management and purification of water.",
+          title:<IntlMessages id="challenge.title8"/>,
+          description:<IntlMessages id="challenge.description8"/>,
           image: 'assets/img/slider/5.png',
           class: "yellow_bg"
       },
       {
           id:9,
-          title:"Renewable Energy",
-          description:"Innovative ideas that help manage and generate renewable sources more efficiently.",
+          title:<IntlMessages id="challenge.title9"/>,
+          description:<IntlMessages id="challenge.description9"/>,
           image: 'assets/img/slider/8.png',
           class: "skyblue_bg"
       },
       {
           id:10,
-          title:"Security Surveillance",
-          description:"Creating state-of-the-art safety and security technologies for India.",
+          title:<IntlMessages id="challenge.title10"/>,
+          description:<IntlMessages id="challenge.description10"/>,
           image: 'assets/img/slider/9.png',
           class: "yellow_bg"
       },
       {
           id:11,
-          title:"Miscellaneous",
-          description:"Technology ideas in tertiary sectors like Hospitality, Financial Services, Entertainment, Tourism and Retail.",
+          title:<IntlMessages id="challenge.title11"/>,
+          description:<IntlMessages id="challenge.description11"/>,
           image: 'assets/img/slider/7.png',
           class: "blue_bg"
       },

@@ -2,6 +2,8 @@ import React from 'react';
 import TeamSlider from '../components/TeamSlider.js';
 import { Container, Row, Col } from 'react-bootstrap';
 import Accordian from '../components/Accordian.js';
+import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 
 export default function About() {
@@ -27,8 +29,9 @@ export default function About() {
                <Container >
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <Row>
-                            <h3 className="fs-heading">Our Vision</h3>
-                            <Col><h4 className="fs-subheading">Smart Natives are prosumers who co-create and inspire people around the globe through the power of sustainable business transformation. We are driving impact across the country to achieve our vision to<br></br><h3 ><strong className="darkblue"> Give every individual the opportunity to attain an excellent skill set and join the journey from Digital to Smart Native. </strong></h3>  </h4></Col>
+                            <h3 className="fs-heading"><IntlMessages id="vision"/></h3>
+                            <Col><h4 className="fs-subheading"><IntlMessages id="vision.description"/>
+                            <br></br><h3 ><strong className="darkblue"> <IntlMessages id="vision.strong.description"/> </strong></h3>  </h4></Col>
                             
                         </Row>
                     </div>
@@ -55,10 +58,11 @@ export default function About() {
 
 
                 <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 rightsc">                
-                        <h2 className="fs-heading">Passionate Team <br/> Members</h2>
+                        <h2 className="fs-heading"><IntlMessages id="about.passionate1"/><br/><IntlMessages id="about.passionate2"/> </h2>
                         {/* <p>The goal of smart Natives is to create functioning software or hardware by the end of the event. Hackathons tend to have a specific focus, which can include the programming language used, the operating system, an application, an API, or the subject and the demographic group of the programmers.</p> */}
-                        <p >We are an international team with different domains. All of us share the passion to work with the younger generation.</p>
-                       <p >Last year together with a team of students Rinku competed in the biggest German school Hackathon #wirfuerschule and was one of the 15 winner teams out of the 250 teams.<strong> In 2021 Mohammed and Rinku won the 1st. price in the competition "Ideenwettbewerb" of the Frankfurt University of Applied Sciences.</strong> </p>
+                        <p ><IntlMessages id="about.passionate.description1"/><br></br><IntlMessages id="about.passionate.description2"/></p>
+                       <p >
+                           <strong><IntlMessages id="about.passionate.description3"/> </strong> </p>
                         {/* <p>Julian was among these students. Mohammed is a student in university and joined the team shortly after. Adriane, a teacher specialized in career education, supports the team as a link to schools. Constanze advises on all matters of marketing. </p> */}
                 </div>
 

@@ -1,5 +1,5 @@
 
-export const defaultLocale = 'en';
+export const defaultLocale = 'de';
 export const localeOptions = [
   { id: 'en', name: 'English', direction: 'ltr' },
   { id: 'de', name: 'German', direction: 'ltr' },

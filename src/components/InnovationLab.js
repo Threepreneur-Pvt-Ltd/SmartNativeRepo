@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 export default function InnovationLab() {
   return (
@@ -28,10 +30,10 @@ export default function InnovationLab() {
 
 
                         <Row >
-                            <Col><h4 className="fs-subheading">Our Innovation Lab is a place where you can explore and experiment both with digital and analog tools. </h4></Col>
-                            <Col><h4 className="fs-subheading">We have one Innovation Lab in Bad Vilbel and partner with few others across Europe and with our mobile TecTruck we cover events<br></br> all over Germany.</h4></Col>
+                            <Col><h4 className="fs-subheading"><IntlMessages id="innovation.col1.a1"/><br></br><IntlMessages id="innovation.col1.a2"/><br></br><IntlMessages id="innovation.col1.a3"/></h4></Col>
+                            <Col><h4 className="fs-subheading"><IntlMessages id="innovation.col2.a1"/><br></br><IntlMessages id="innovation.col2.a2"/> </h4></Col>
                             
-                            <Col><h4 className="fs-subheading">Our Innovation lab is a room for ideas both digital and analog that gives Smart Natives a second home in the real world. It's a coworking space <br></br>for our local partners and of course an out-of-school learning center where school classes can work on extracurricular projects.</h4></Col>
+                            <Col><h4 className="fs-subheading"><IntlMessages id="innovation.col3.a1"/><br></br><IntlMessages id="innovation.col3.a2"/></h4></Col>
                            
                         </Row>
                         

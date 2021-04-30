@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useTranslation } from "react-i18next";
+import IntlMessages from '../helpers/IntlMessages';
 
 export default function Badges() {
   return (
@@ -8,7 +10,7 @@ export default function Badges() {
           <div className="container-fluid">
               <div className="row text-center">
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                      <h3 className="fs-heading">BADGES</h3>
+                      <h3 className="fs-heading"><IntlMessages id="badges.heading"/></h3>
                       <Container >
 
 
@@ -27,9 +29,9 @@ export default function Badges() {
                         </div>
 
                         <Row >
-                              <Col><h4 className="fs-subheading">By completing a Smart Natives challenge or an upskilling project in our Skill Zone participants receive badges to <br></br>showcase their skills.</h4></Col>
-                              <Col><h4 className="fs-subheading">We use elements of gamification to make progress visible and motivating. The badges prove which skills <br></br> and methods each student earned by completing a case or a challenge. </h4></Col>
-                              <Col><h4 className="fs-subheading">We cooperate with companies and institutions that have an interest in diverse teams of young innovators and respect<br></br> the energy and creativity of young people.<br></br> As a Smart Native you learn to work: collaboratively and future-oriented in a safe environment.</h4></Col>
+                              <Col><h4 className="fs-subheading"><IntlMessages id="badges.col1.a1"/><br></br><IntlMessages id="badges.col1.a2"/></h4></Col>
+                              <Col><h4 className="fs-subheading"><IntlMessages id="badges.col2.a1"/> <br></br><IntlMessages id="badges.col2.a2"/>  </h4></Col>
+                              <Col><h4 className="fs-subheading"><IntlMessages id="badges.col3.a1"/><br></br><IntlMessages id="badges.col3.a2"/><br></br><IntlMessages id="badges.col3.a3"/> </h4></Col>
                           </Row>
                          
                   </Container>
